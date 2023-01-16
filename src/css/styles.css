@@ -14,7 +14,49 @@ body {
 
 #search-box {
   font: inherit;
-  padding: 8px;
-  max-width: 320px;
-  margin-bottom: 16px;
+  padding: 12px;
+  max-width: 550px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  border-radius: 30px;
+}
+
+.container {
+  width: 320px;
+  text-align: center;
+  align-items: center;
+  border-radius: 6px;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  background-color: rgb(245, 188, 56);
+}
+
+li {
+  list-style: none;
+}
+
+input {
+  border-radius: 6px;
+  border: solid 3px;
+  border-color: rgba(145, 174, 0, 0.866);
+  -webkit-box-shadow: 9px 9px 18px 4px rgba(205, 255, 40, 0.634);
+  box-shadow: 9px 9px 18px 4px rgba(128, 171, 85, 0.6);
+}
+
+input:hover,
+input:focus {
+  border-color: rgba(20, 224, 102, 0.827);
+  -webkit-box-shadow: 9px 9px 18px 4px rgba(0, 255, 115, 0.6);
+  box-shadow: 9px 9px 18px 4px rgba(1, 253, 68, 0.6);
+}
+
+.list-item {
+  text-align: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  background-color: rgb(255, 127, 253);
+  margin-left: 180px;
+  margin-right: 180px;
 }
