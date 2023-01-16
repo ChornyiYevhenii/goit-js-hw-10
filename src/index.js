@@ -40,6 +40,7 @@ function oneCountryInfo({ flags, name, capital, population, languages }) {
         )}</p>
       </div>
     `;
+  
 }
 
 function oneCountryList({ flags, name }) {
@@ -71,12 +72,6 @@ function returnedCountries(countries) {
     Notify.info('Too many matches found. Please enter a more specific name.');
   }
 }
-
-
-
-
-
-
 
 
 
