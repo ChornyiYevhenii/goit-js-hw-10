@@ -54,8 +54,6 @@ function oneCountryList({ flags, name }) {
 
 function returnedCountries(countries) {
   if (countries.status === 404) {
-    countryList.innerHTML = '';
-    countryInfo.innerHTML = '';
     Notify.failure('Oops, there is no country with that name');
   }
   if (countries.length >= 1 && countries.length < 10) {
