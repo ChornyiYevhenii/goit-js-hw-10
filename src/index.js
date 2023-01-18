@@ -56,10 +56,10 @@ function returnedCountries(countries) {
   if (countries.status === 404) {
     Notify.failure('Oops, there is no country with that name');
   }
-  if (countries.length >= 1 && countries.length < 10) {
+  if (countries.length >= 2 && countries.length < 10) {
     const markup = countries.map(country => oneCountryList(country));
-    countryInfo.innerHTML = markup.join('');
-    countryList.innerHTML = '';
+    countryList.innerHTML = markup.join('');
+    countryInfo.innerHTML = '';
   }
   if (countries.length === 1) {
     const markup = countries.map(country => oneCountryInfo(country));
